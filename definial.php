@@ -65,6 +65,6 @@ GOB::$param['fb_app_id']='218324098211541';
 GOB::$param['fb_width']='700';
 GOB::$param['fb_num-posts']='10';
 
-//print_r(GOB::$param);
+//print_r(GOB::$param); fghfgh
 		
 //GOB::$keret_tomb['sidebar1']=['rss'];
