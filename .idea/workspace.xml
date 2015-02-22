@@ -2,400 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21309d19-510f-4aa8-a8a8-0f8256f29cde" name="Default" comment="">
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\cikkek_old.php" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\new  1.txt" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\admin_controller.php" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\admin_controller_div.php" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\admin_fgv.php" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\admin_fuggvenyek.php" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\itemadmin.php" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\pages.php" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\contacts.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\home.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\69e4c-large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\69e4c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\6bc89-large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\6bc89.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\88cac-large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\88cac.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\NavigatorFirst.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\NavigatorFirstOff.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\NavigatorLast.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\NavigatorLastOff.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\NavigatorNext.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\NavigatorNextOff.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\NavigatorPrev.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\NavigatorPrevOff.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\SorterAscActive.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\SorterAscPassive.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\SorterDescActive.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\SorterDescPassive.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\blockbullets.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\ec742-large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\ec742.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\footerbullets.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\footerrssicon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\header.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\postauthoricon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\postbullets.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\postcategoryicon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\postcommentsicon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\postdateicon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\postediticon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\postemailicon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\postheadericon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\postpdficon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\postprinticon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\postquote.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\posttagicon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\preloader-01.gif" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\searchicon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\spacer.gif" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\images\template_preview.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\index.php" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\script.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\script.responsive.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\style.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\style.ie7.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\template\style.responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\tempvalaszt.php" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\webhelyadmin.php" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\admin\regi\wiev\alap.php" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\app\com\slot\virusok.txt" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\fejleszt.zip" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\inc\FeedParser.php" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\inc\ellenor_old1.php" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\inc\proba2.php" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\index.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\index_old.php" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\lib\old\db_fgv_old.php" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\lib\old\db_fgv_old2.php" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\62_1412031773_723.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\62_1412417715_879.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\62_1412417716_659.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\62_1412417717_102.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\62_1412417718_538.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\62_1412417719_312.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\62_1412417720_73.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\62_1412417720_878.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\62_1412417722_128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\62_1412417722_248.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\62_1412417722_299.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\62_1412417723_619.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\62_1412417725_156.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\62_1412417726_593.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\62_1412417726_762.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\62_1412417727_897.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\62_1412417728_223.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\62_1412417728_37.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\62_1412417729_182.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\62_1412426470_848.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\62_1412435833_117.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\62_1412435833_859.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\62_1412435835_85.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\62_1412435836_171.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\62_1412435837_662.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\62_1412435837_822.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\62_1412435838_420.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\62_1412435839_298.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\62_1412435839_400.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\62_1412435839_592.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\62_1412435840_600.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\62_1412437163_904.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\62_1412437168_636.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\kepek\64\anonim.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\kepek\64\dir.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\kepek\64\edit.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\kepek\64\home.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\kepek\64\kozos.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\kepek\64\multi_plusz.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\kepek\64\options.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\kepek\64\plusz.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\kepek\64\published.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\kepek\64\published_ki.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\kepek\64\save.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\kepek\64\themes.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\kepek\64\torol.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\kepek\64\unpublished.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\kepek\down.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\kepek\mail_piros.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\kepek\mail_zold.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\kepek\portre.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\kepek\shoppingcart.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\kepek\up.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\thumb\62_1412031773_723.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\thumb\62_1412417715_879.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\thumb\62_1412417716_659.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\thumb\62_1412417717_102.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\thumb\62_1412417718_538.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\thumb\62_1412417719_312.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\thumb\62_1412417720_73.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\thumb\62_1412417720_878.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\thumb\62_1412417722_128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\thumb\62_1412417722_248.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\thumb\62_1412417722_299.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\thumb\62_1412417723_619.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\thumb\62_1412417725_156.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\thumb\62_1412417726_593.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\thumb\62_1412417726_762.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\thumb\62_1412417727_897.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\thumb\62_1412417728_223.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\thumb\62_1412417728_37.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\thumb\62_1412417729_182.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\thumb\62_1412426470_848.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\thumb\62_1412435833_117.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\thumb\62_1412435833_859.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\thumb\62_1412435835_85.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\thumb\62_1412435836_171.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\thumb\62_1412435837_662.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\thumb\62_1412435837_822.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\thumb\62_1412435838_420.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\thumb\62_1412435839_298.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\thumb\62_1412435839_400.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\thumb\62_1412435839_592.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\thumb\62_1412435840_600.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\thumb\62_1412437163_904.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\media\thumb\62_1412437168_636.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\pnet354_motto001_fejleszt.sql" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\admin\contacts.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\admin\home.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\admin\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\admin\script.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\admin\script.responsive.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\admin\style.ie7.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\admin\style.responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\egyes\contact-us.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\egyes\home.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\egyes\images\blockbullets.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\egyes\images\blockheadericon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\egyes\images\buildinghome.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\egyes\images\e1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\egyes\images\facebook_32.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\egyes\images\header.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\egyes\images\menuseparator.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\egyes\images\object0.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\egyes\images\object1488369704.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\egyes\images\paint-2.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\egyes\images\pathing-2-2.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\egyes\images\postbullets.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\egyes\images\postemailicon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\egyes\images\postpdficon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\egyes\images\postprinticon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\egyes\images\postquote.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\egyes\images\preloader-01.gif" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\egyes\images\rss_32.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\egyes\images\school-2.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\egyes\images\spacer.gif" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\egyes\images\template_preview.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\egyes\images\twitter_32.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\egyes\index.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\egyes\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\egyes\script.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\egyes\script.responsive.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\egyes\style.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\egyes\style.ie7.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\egyes\style.responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\Blog Posts\post-2.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\Blog Posts\post.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\blog.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\home.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\home\new-page-2.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\home\new-page-3.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\home\new-page.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\images\79-large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\images\79.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\images\blockbullets.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\images\footerbullets.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\images\footerrssicon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\images\header.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\images\menuseparator.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\images\object227400126.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\images\postauthoricon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\images\postbullets.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\images\postdateicon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\images\postediticon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\images\postquote.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\images\preloader-01.gif" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\images\searchicon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\images\shutterstock_32050237-large.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\images\shutterstock_32050237.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\images\shutterstock_62287657-01-3-large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\images\shutterstock_62287657-01-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\images\spacer.gif" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\images\template_preview.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\images\vmenuactiveitemicon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\images\vmenuhovereditemicon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\images\vmenuitemicon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\index.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\script.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\script.responsive.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\style.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\style.ie7.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg1\style.responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\Blog Posts\post-2.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\Blog Posts\post.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\blog.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\home.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\home\new-page-2.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\home\new-page-3.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\home\new-page.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\images\79-large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\images\79.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\images\blockbullets.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\images\footerbullets.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\images\footerrssicon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\images\header.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\images\menuseparator.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\images\object227400126.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\images\postauthoricon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\images\postbullets.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\images\postdateicon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\images\postediticon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\images\postquote.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\images\preloader-01.gif" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\images\searchicon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\images\shutterstock_32050237-large.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\images\shutterstock_32050237.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\images\shutterstock_62287657-01-3-large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\images\shutterstock_62287657-01-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\images\spacer.gif" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\images\template_preview.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\images\vmenuactiveitemicon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\images\vmenuhovereditemicon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\images\vmenuitemicon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\index.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\script.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\script.responsive.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\style.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\style.ie7.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg2\style.responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg3\images\79-large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg3\images\79.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg3\images\shutterstock_32050237-large.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg3\images\shutterstock_32050237.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg3\images\shutterstock_62287657-01-3-large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg3\images\shutterstock_62287657-01-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\templates\szovetseg3\images\template_preview.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\unzip.php" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\contacts.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\home.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\69e4c-large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\69e4c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\6bc89-large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\6bc89.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\88cac-large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\88cac.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\NavigatorFirst.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\NavigatorFirstOff.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\NavigatorLast.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\NavigatorLastOff.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\NavigatorNext.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\NavigatorNextOff.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\NavigatorPrev.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\NavigatorPrevOff.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\SorterAscActive.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\SorterAscPassive.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\SorterDescActive.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\SorterDescPassive.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\blockbullets.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\ec742-large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\ec742.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\footerbullets.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\footerrssicon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\header.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\postauthoricon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\postbullets.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\postcategoryicon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\postcommentsicon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\postdateicon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\postediticon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\postemailicon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\postheadericon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\postpdficon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\postprinticon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\postquote.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\posttagicon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\preloader-01.gif" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\searchicon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\spacer.gif" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\images\template_preview.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\index.php" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\script.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\script.responsive.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\style.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\style.ie7.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\admin\style.responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\alap\alap.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\alap\index.php" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\home.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\home\new-page-2.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\home\new-page-3.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\home\new-page.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\images\5447e-large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\images\5447e.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\images\96445-large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\images\96445.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\images\activebutton.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\images\blockbullets.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\images\button.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\images\footerbullets.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\images\footerrssicon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\images\header.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\images\hoveredbutton.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\images\nav.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\images\object1201188790.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\images\pageglare.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\images\postauthoricon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\images\postbullets.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\images\postdateicon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\images\postediticon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\images\postemailicon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\images\postheadericon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\images\postpdficon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\images\postprinticon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\images\postquote.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\images\preloader-01.gif" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\images\searchicon.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\images\spacer.gif" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\images\szovetseg_logo.gif" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\images\szovetseg_logo.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\images\template_preview.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\images\vmenuactiveitem.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\images\vmenuhovereditem.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\images\vmenuitem.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\index.php" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\script.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\script.responsive.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\style.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\style.ie7.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\sajat2\style.responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\template_4\css\style.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\template_4\images\black-bullet.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\template_4\images\bottom-round.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\template_4\images\bottom-round2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\template_4\images\dottedline.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\template_4\images\footer.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\template_4\images\footnote.gif" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\template_4\images\header.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\template_4\images\left-bottom.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\template_4\images\left-head.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\template_4\images\red-bullet.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\template_4\images\round-bullet.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\template_4\images\top-rept.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\template_4\images\top-round.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\template_4\images\top-round2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\template_4\images\vline.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\template_4\index.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\template_4\index.php" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\wiev\templates\template_4\license.txt" afterPath="" />
-      <change type="DELETED" beforePath="G:\www\fejleszt\zip.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fejleszt.iws" />
@@ -459,11 +67,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="1071">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7157895" vertical-offset="238" max-vertical-offset="1071">
+              <caret line="34" column="78" selection-start-line="34" selection-start-column="78" selection-end-line="34" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -472,18 +80,18 @@
       <file leaf-file-name="definial.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/definial.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.5" vertical-offset="762" max-vertical-offset="1292">
+            <state vertical-scroll-proportion="0.0" vertical-offset="762" max-vertical-offset="1292">
               <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="body.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="body.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/no/body.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="474">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="153">
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -492,7 +100,7 @@
       <file leaf-file-name="cimkezelo.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cimkezelo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1649">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1649">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -502,7 +110,7 @@
       <file leaf-file-name="adatok.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/adatok.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.961538" vertical-offset="0" max-vertical-offset="1207">
+            <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="1207">
               <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
               <folding>
                 <marker date="1417446168529" expanded="true" signature="1363:1417" placeholder="SELECT * FRO..webhelyek..." />
@@ -515,7 +123,7 @@
       <file leaf-file-name="MySQL - @localhost" pinned="false" current-in-tab="false">
         <entry file="dbDummy://db-console:/6d5f7337/877ae06f-f005-43d7-8145-04c229dd8dbe/">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -531,6 +139,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/definial.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -585,38 +194,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fejleszt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fejleszt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fejleszt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fejleszt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="no" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -653,13 +230,13 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="com.intellij.database.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
       <option name="VM_PARAMETERS" value="" />
       <option name="USER_CFG_CLASS" />
       <option name="CONTEXT_PROVIDER" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
@@ -669,10 +246,16 @@
     <configuration default="true" type="AppEnginePhpConfigurationType" factoryName="App Engine for PHP" phpCgiPath="C:\wamp\bin\php\php5.5.12\php.exe">
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="2">
@@ -713,7 +296,13 @@
       <option name="project" value="LOCAL" />
       <updated>1424623765986</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ddd">
+      <created>1424625719641</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1424625719641</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -738,27 +327,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1260" height="944" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909784" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909784" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909784" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909784" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39898348" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32909784" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25916666" sideWeight="0.5006353" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32909784" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909784" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16666667" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16916667" sideWeight="0.50094515" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16666667" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909784" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16916667" sideWeight="0.49905482" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25916666" sideWeight="0.5006353" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32868022" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868022" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909784" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909784" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39898348" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909784" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -786,6 +375,57 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1071">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/definial.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="762" max-vertical-offset="1292">
+          <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/no/body.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cimkezelo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1649">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/adatok.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="1207">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+          <folding>
+            <marker date="1417446168529" expanded="true" signature="1363:1417" placeholder="SELECT * FRO..webhelyek..." />
+            <marker date="1417446168529" expanded="true" signature="1543:1741" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://db-console:/6d5f7337/877ae06f-f005-43d7-8145-04c229dd8dbe/">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="dbDummy://dbtable:/6d5f7337/877ae06f-f005-43d7-8145-04c229dd8dbe/fejleszt..cikk">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -795,7 +435,6 @@
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -809,7 +448,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/adatok.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.961538" vertical-offset="0" max-vertical-offset="1207">
+        <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="1207">
           <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
           <folding>
             <marker date="1417446168529" expanded="true" signature="1363:1417" placeholder="SELECT * FRO..webhelyek..." />
@@ -826,17 +465,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="1071">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/definial.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.5" vertical-offset="762" max-vertical-offset="1292">
+        <state vertical-scroll-proportion="0.0" vertical-offset="762" max-vertical-offset="1292">
           <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
           <folding />
         </state>
@@ -844,8 +475,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/no/body.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="500">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="153">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7157895" vertical-offset="238" max-vertical-offset="1071">
+          <caret line="34" column="78" selection-start-line="34" selection-start-column="78" selection-end-line="34" selection-end-column="78" />
           <folding />
         </state>
       </provider>

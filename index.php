@@ -32,7 +32,7 @@ if(MoConfig::$offline=='igen'){
 //print_r(GOB::get_jog());
 include_once ALTALANOS_FGV;
 include_once KERET_PHP;
-
+//ggggggggggggggggggggg--------------------------ggggggggggggggggggggggggggggg
 //com meghatározás alap,get---------------------------------------------
 if(isset($_GET['com'])){GOB::$com=$_GET['com'];}
 //template meghatározás alap,com, get---------------------------------------
