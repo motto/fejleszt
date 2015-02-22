@@ -1,0 +1,12 @@
+http://nevergone.hu/hu/blog/131008/git-verziokezelo-telepitese-windows-7-ala
+(leírás)
+git program letöltése:  http://git-scm.com/download/win
+telepítés ha kell kitallózni és beállítani a file->settings->version control->git menüben
+
+Új project: gyökér könyvtár pl E:www
+VCS-> version control enable (vagy alami ilyesmi)
+utána megjelenik a version control menü
+VCS->checkout from version kontrol->github
+felbukkanó ablakban: clonozás
+ha könyvtárnévnek megadjuk a fejlesztet akkor az E:/www/fejleszt-be klonoz.
+elkészült könyvtárba nem klónoz
