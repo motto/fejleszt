@@ -1,0 +1,88 @@
+sql mezőbe beír:
+http://webstack.hu/cikk/mysql-tarolt-eljarasok-1-resz
+A feladat: néhány oladalas összefoglaló a PL/sql nyelvről. Tárolt eljárások függvények paraméter átadás tipusok összetett tipusok egy egy példa. Mivel néhány oldalon még a változó tipusokat sem lehet rendesen ismertetni és mivel amúgy sem vagyok híve az ezer leírásból ollózzunk össze egy ezeregyediket módszernek, úgy gondoltam egy gyakorlati probléma megoldását dokumentálom. Ez bár elég egyszerű de az alapokat jól bemutatja és még talán hasznnos is lehet valakinek... valahol... valamikor...
+
+A probléma: Régóta tervezem a saját keretrendszerem  többnyelvűsítését. Ez önmagában nem nagy gond ha azt értjük alatta hogy több nyelven is képes legyen megjelenni a weblap. csak meg kell állapítani hogy épp milyen nyelvet akarunk. betöltjük a megfelelő nyelvi fájlt és a lekérdezésekbe még beleteszünk egy szűrést a nyelvre. Ez jó ha egyszerre csak egy nyelvet akarunk használni és az adminisztráció gondoskodik róla hogy mindig minden tartalom meglegyen minden használt nyelven. Ha egy kicsit univerzálisabb megoldást szeretnénk már jönnek a gondok.Pl vannak az olvasók akik beszélnek esetenként több nyelvet is.(egyet biztosan) és vannak a szerzők hasonló képességekkel, Az olvasók és szerzők nyelvei nem mindiog esnek egybe és a szerzőknél van még egy kapacitásbeli korlát is. Magyarul lehet hogy több nyelven is publikálnak, de valószínűleg mindent minden nyelven. Tehát a lapnak a nyelveket egy prioritás lista alapján kell kezelnie. Ha az én prioritás listám Magyar, Angol , Piréz akkor a lapnak biztosítania kell hogy ha a cikk elérhető magyarul akkor úgy jelenjen meg, ha nem akkor Angolul, ha úgysem akkror Pirézül, ha eggyik sincs akkor a cikk eredeti nyelvén. Esetleg egy Google fordítást felkínálva. Itt még lehet azzal cifrázni hogy ha nincs prioritás listában az angol, de a cikknek van angol nyelvű verziója akkor az jelenjen meg mert arról valószínűleg jobban fordít a google. Elképzelhető hogy ezt meg lehet oldani a selectek belső selectek és group bay -ok furmányos használatával is, (a minden adatot lekérek és majd PHP-vel kiválagotam tipusú megoldásokról nem beszélve) de a tanulság kedvéért meg mert mégiscak szakszerűbbnek tűnik használjunk Tárolt eljárást.
+
+Nézzük mire lesz szükségünk:
+Adattipusok:
+A plsql fő jellemzője hogy igen erősen tipusos nyelv, az összes tipus részletes ismertetése de még pontos felsorolása és meghatározása is bőven túlmutat ezen iromány keretein. Egy gyors összefoglalás:
+Előre definiált egyszerű tipusok:
+Ezek lényegében az alapvető sql mezőtipusok.
+ Numerikus:típuscsalád:
+NUMBER: NUMERIC, DECIMAL, REAL, FLOAT, INTEGER stb.
+Karakteres típuscsalád:
+CHAR, VARCHAR2 NCHAR, NVARCHAR2 stb
+Dátum típuscsalád: DATE, TIMESTAMP, INTERVAL
+Logikai típuscsalád:
+BOOLEAN
+Az előre definiált Összetett típusok is :  record, table, array
+LOB típusok:         bfile, clob, blob, nclob 
+Ref típusok:           ref cursor, sys_refcursor, ref obj_típus
+ezen kívül a felhaszbnálók is definiálhatnak saját tipusokat CREATE TYPE-al (ezek speciális összetett tipusok) definiálhatnak saját altipusokat SUBTYPE (az alaptipusok szűkítései).
+Valamint meg kell még említeni egy nagyon hasznos dolgot a típus öröklést is : %TYPE. Az új  változónk olyan tipusú lesz mint a kiválasztott mező vagy változó. Ha azt megváltoztatjuk automatikusan megváltozik az új változó tipusa is. Vagy megadhatunk akár egy komplett rekordot is %ROWTYPE-al. Akkor a változónk olyan mezőkkel fog rendelkezni mint a kiválasztott rekord.
+ Természetesen használhatrunk konverziós függvényeket is: TO_CHAR, TO_DATE, TO_NUMBER stb.
+ 
+ Ezen kívül fogunkhasználni cursort, (még lesz róla szó) és ciklusokat is. A vezérlési szerkezetek ciklusok a legtöbb program nyelven megszokottak. PASCAl-os szintaktikával.
+ 
+ A Program szerkezete:
+ A PL/SQL program alapeleme a blokk ami áll egy deklarációs részből a DECLARE után valamint egy programtörzsből a BEGIN és az END között,valamint egy kivételkezelő részből. Ezekből csak a programtörzs kötelező.  A blokkokat természetesen le lehet futtatni parancsrból vagy fileból is, de érdemesebb tárolt eljárást, vagy függvényt készíteni.CREATE PROCEDURE,CREATE FUNCTION parancsal. a különbség hogy a függvénynek van visszatérési értéke. Persze a komolyab problémáknál lehetőség van több procedúrák, függvények, típus definíciók, változó deklarációk, konstansok, kivételek, kurzorok stb PACKAGE-be foglalására is.
+
+de próbáljuk is ki hogy egy kicsit élőbb legyen a dolog.  Mivel a keretrendszeremhez mysql-t használok és egyenlőre nem vagyok rászorítva oracle-ra ebben fogom letesztelni. Azzal már nem akarom tovább stresszelni a hozzáértőket hogy ráadásul még php-n keresztül esetleg a phpmyadminban futtassam bár már erre is volna lehetőség. Azért sem ajánlott ez mert minden újabb réteg bevezetése újabb hibalehetőség is. Amit a tanulási tesztelési fázisban érdemes minél jobban lecsökkenteni. Tehát nyitok egy parancssort. Bejelentkezek, és kiválasztom az adatbázist.
+
+Mivel parancssorból dolgozunk,először is át kell állítani a sorvég jelet pl.:$$-ra mert  program több soros lesz és ha a programsoroknak is ugyanaz a végződése mint a parancssoroknak annak nem lesz jó vége.
+DELIMITER $$
+eljárás létrehozása a CREATE PROCEDURE  parancsal történik utána kell megadni a fögvény nevét majd a paramétereit. erről később.
+CREATE PROCEDURE GetData()
+jön a deklarációs rész ahol egy varchar tipusú változót állítunk elő és adunk neki kezdőértéket.
+DECLARE
+kategoria VARCHAR2(10):='vegyes'
+  BEGIN
+  SELECT id FROM cikk WHERE kat=kategoria;
+  END $$
+DELIMITER ;
+nézzük meg hogy létrejött-e: 
+SHOW PROCEDURE STATUS; //kilistázza tehát OK, 
+hívjuk meg: 
+CALL GetData(); //szépen kilistázza a vegyes kategória cikkeit miden OK.
+
+Paraméterezzünk! A paraméterezésről azt kell tudni hogy van bemenő IN, kimenő OUT, és ki/be menő IN/OUT  Nagyon nem hiszem hogy magyarázni kell. Mi most bemenő varchar paraméterben fogjuk  átadni a lekérendő mezőnevet:
+
+DELIMITER $$
+CREATE PROCEDURE Getdata(IN mezonev VARCHAR(50))
+  BEGIN
+  SELECT `mezonev` FROM cikk;
+  END $$
+DELIMITER ;
+Nézzük: call getdata('id');
+
+mezonev |
+---------
+  null  |
+  null  |
+  null
+..
+nem egészen az amire számítottam... Kis keveredés van a mezőnév változó és a mezőnév mezőnév között. Gyanú ébred bennem hogy talán mezőnevet nem is lehet változóban átadni?
+egyenlőre nézzük hogy a változó átadás úgy egyébként megy-e?
+CREATE PROCEDURE Getdata(IN kategoria VARCHAR(50))
+BEGIN
+  SELECT id,kat FROM cikk WHERE kat=kategoria;
+  END
+Próba: call Getdata('vegyes');
+Működik, szépen kilistázza a vegyes kategóriát...
+akkor mi legyen a mezőnevekkel? Igazából ehhez a feladathoz nincs rá feltétlen szükség hogy mező vagy tábla nevet adjunk át paraméterben, de valószínűtlennek tartom hogy ez az igény még nem merült fel és hogy ne született volna már rá egy egyszerű megoldás. Szóval kisstílű dolog volna megkerülni a problémát. Rövid (3-4 óra) guglizás után meg is van mi a baj: az oszlopnevek elsőbbséget élveznek a lokális változókkal szemben(a tábla nevek nem!). Megoldás: A lekérdezést a SET és CONCAT  segítségével rakjuk össze,változókból és karakterekből,majd a prepare és az execute segítségével lefuttatjuk. Ez még később is hasznos lehet!
+
+    SET @s = CONCAT('SELECT ',mezonev,' FROM cikk' );
+    PREPARE stmt FROM @s;
+    EXECUTE stmt;
+    DEALLOCATE PREPARE stmt; //gondolom feelszabadítja a memóriát.
+
+ Így már működik! 
+ Akkor neki is álhatunk a nagy feladatnak.
+ Szükségünk leszz egy eljárásra aminek ismét a rendkívül fantáziadús GetData nevet adjuk ennek 2 bemenő paramétere lesz a nyelvek, és a szűrés. Mindkettő varchar
+ A nyelvek a lekérdezendő nyelvek vesszővel elválasztva.(az igazi tömb volna de tartok tőle hogy php-ból a tömb átadással töb problémánk lenne mint szeretnénk) a szűrés pedig egyéb feltételek limit order szűkítés stb.
+ CREATE PROCEDURE Getdata(IN nyelvek VARCHAR(50),IN szures VARCHAR(250))
+ 
+ 
+ 
+ CALL getdata9("hu","AND userid=\'62\' limit 2")

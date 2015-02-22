@@ -1,0 +1,223 @@
+img {margin:1px;}
+#slot
+{
+position:relative;
+top:-20px;
+	/* opacity: 0.3;*/
+
+    text-align: center;
+    background-color:#3F5C9A;
+	min-height:600px;
+}
+#jatek
+{
+border-radius:10px;
+position:relative;
+/*float:left; */
+margin:10px;
+    text-align: center;
+    background-color:#cdcdcd;
+    background-image:-moz-linear-gradient(#bbb,#eee,#bbb);
+    background-image:-webkit-linear-gradient(#bbb,#eee,#bbb);
+    overflow:hidden;
+    width: 345px;
+    height: 240px;	 
+    top:20px;
+    left:20px;
+	border: 2px solid gold;
+	
+	font-family: 'Slackey';
+z-index:100;	
+}
+.nev 
+{  
+
+border-radius:10px;
+  box-shadow: inset rgba(255,255,255,0.15) 0px 1px 0px;
+    border: 1px solid rgba(0,0,0,0.15);
+    background-image: -moz-linear-gradient(rgba(255,255,255,0.15),rgba(0,0,0,0.15));
+    background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0.15)), to(rgba(0,0,0,0.15)));
+text-align:center;
+  font: 30px bold;
+  color:#22283E;
+    width: 100%;
+}
+#vv
+{
+position:relative;
+text-align:left;
+padding:20px;
+ top:-240px;
+}
+.vk
+{
+position:relative;
+top:-30px;
+left:30px;
+color:red;
+}
+.sav
+{
+background-image: url('/com/slot/img/forog_140.gif');
+background-color: #cccccc;
+width:100px; 
+height:120px;
+float:left;
+border-style: solid;
+border-color: black;
+border-width: 2px;
+margin:5px;
+}
+#uzeno{
+position:relative;
+top:-240px;
+left:400px;
+border-radius:10px;
+   border: 1px solid rgba(0,0,0,0.15);
+margin-top:20px;
+  color: white;
+  font-size: 26px;
+  width:320px;
+  line-height:150%;
+  height:240px;
+}
+#szoveg{
+background-color:#526CA4;
+
+border-radius:10px;
+   border: 1px solid rgba(0,0,0,0.15);
+   border: 1px solid rgba(0,0,0,0.15);
+position:relative;
+
+padding:15px;
+margin:15px;
+ top:-250px;
+  color: white;
+  font-size: 20px;
+  text-align:center;
+}
+#container h1
+{
+    
+    font-size: large;
+    text-align: center;
+    color: white;
+} 
+ .cim
+{
+	color: white;
+	margin:20px;
+    text-align: center;
+    font: 20px Slackey;
+    text-shadow:#000 0px 0px 1px , #000 0px 0px 1px;
+}
+
+
+#container #header
+{
+    text-align: center;
+}
+#container 
+{
+    text-align: center;
+    font: 26px Slackey;
+    text-shadow:#000 0px 0px 1px , #000 0px 0px 1px;
+}
+#container #header h3
+{
+
+    color: #555;
+    padding-bottom: 10px;
+    text-shadow:rgba(255,255,255,0.6) 0px 1px 0px;
+}
+
+#container #buttons
+{
+    margin-top:3px;
+}
+
+ #play 
+{
+    font-family: 'Slackey'; 
+    bottom:10px;
+    left:30px;
+    right:30px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-size: 24px;
+    border-radius:10px;
+    background-size:auto 62px;
+}
+
+
+
+#container
+{
+    width: 87px;
+    height: 300px;
+    position: relative;
+    background: white;
+    border: 2px solid gold;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    opacity: 0.3;
+    background-image: -moz-linear-gradient(#555,#fff,#fff,#555);
+    background-image: -webkit-gradient(linear, 0 25%, 0 100%, from(grey), color-stop(0.5, white), to(grey));
+}
+
+#reels #results
+{
+    /*display: none;
+	position: absulute;
+	  left: 20px;
+    top: 15px;*/
+    background: white;
+    border: 3px solid gold;
+    height: 120px;
+    width: 250px;
+  position:relative;
+    font-size: x-large;
+}
+
+#results #score {
+    margin: 5px;
+}
+
+#results #score img {
+    vertical-align: middle;
+}
+
+
+.button
+{
+margin-top:10px;
+width:340px;
+    text-align: center;
+    color: #fff;
+    box-shadow: inset rgba(255,255,255,0.15) 0px 1px 0px;
+    border: 1px solid rgba(0,0,0,0.15);
+    background-image: -moz-linear-gradient(rgba(255,255,255,0.15),rgba(0,0,0,0.15));
+    background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0.15)), to(rgba(0,0,0,0.15)));
+    background-position: 0px -1px;
+    text-shadow:#000 0px 0px 1px;
+    text-decoration: none;
+}
+.button.button-default
+{
+    background-image:-moz-linear-gradient(#77e0fb,#3f93ac);
+    background-image:-webkit-gradient(linear, left top, left bottom, from(#77e0fb), to(#3f93ac));
+}
+.button.button-default:hover
+{
+    background-image:-moz-linear-gradient(#ffd539,#af861e);
+    background-image:-webkit-gradient(linear, left top, left bottom, from(#ffd539), to(#af861e));
+    cursor:pointer;
+}
+.button.button-default:active
+{
+    background-image:-moz-linear-gradient(#ffb133,#b3671a);
+    background-image:-webkit-gradient(linear, left top, left bottom, from(#ffb133), to(#b3671a));
+}
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="hu-HU"><head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
+    <link rel="stylesheet" href="style2.css" media="screen">
+    <link rel="stylesheet" href="style.responsive.css" media="all">
+
+<style>.art-content .art-postcontent-0 .layout-item-0 { padding-right: 10px;padding-left: 10px;  }
+.ie7 .post .layout-cell {border:none !important; padding:0 !important; }
+.ie6 .post .layout-cell {border:none !important; padding:0 !important; }
+
+</style></head>
+<body>
+<div id="art-main">
+<nav class="art-nav clearfix">
+    <ul class="art-hmenu"><li><a href="home.html" class="active">Home</a></li></ul> 
+</nav>
+<div class="art-sheet clearfix">
+            <div class="art-layout-wrapper clearfix">
+                <div class="art-content-layout">
+                    <div class="art-content-layout-row">
+<div class="art-layout-cell art-sidebar1 clearfix"><div class="art-vmenublock clearfix">
+<div id="fb-root"></div> 
+ <script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/hu_HU/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
+
+ <?php
+ function post_beagyaz($fb_id){
+ ?>
+ <div class="fb-post" data-href="https://www.facebook.com/<?php echo $fb_id;?>" data-width="250"><div class="fb-xfbml-parse-ignore"></div></div>
+  <?php
+ }
+ 
+$bejegyzesek = array ("permalink.php?story_fbid=321615578009983&amp;id=313759868795554","permalink.php?story_fbid=320373678134173&amp;id=313759868795554","permalink.php?story_fbid=319601931544681&amp;id=313759868795554","lmpjaszbereny/posts/388977691218752","permalink.php?story_fbid=317176655120542&amp;id=313759868795554","permalink.php?story_fbid=316611958510345&amp;id=313759868795554","permalink.php?story_fbid=315004532004421&amp;id=313759868795554","permalink.php?story_fbid=320985558072985&amp;id=313759868795554");
+for ($i = 1; $i <= 3; $i++) {
+$key=array_rand($bejegyzesek);
+post_beagyaz($bejegyzesek[$key]);
+unset($bejegyzesek[$key]); //törli a tömbből az elemet
+}
+ ?>
+
+</div></div>
+<div class="art-layout-cell art-content clearfix">
+   <article class="art-post art-article">
+                                <h2 class="art-postheader">Home</h2>
+                                                
+                <div class="art-postcontent art-postcontent-0 clearfix"><div class="art-content-layout">
+ 
+</div>
+<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    Curabitur ullamcorper gravida felis, sit amet scelerisque lorem iaculis sed Curabitur ullamcorper gravida felis, sit amet scelerisque lorem iaculis sed Curabitur ullamcorper gravida felis, sit amet scelerisque lorem iaculis sed Curabitur ullamcorper gravida felis, sit amet scelerisque lorem iaculis sed  Curabitur ullamcorper gravida felis, sit amet scelerisque lorem iaculis sed Curabitur ullamcorper gravida felis, sit amet scelerisque lorem iaculis sed
+    </div>
+</div>
+</div>
+</article>
+</div> 
+
+                </div>
+            </div><footer class="art-footer clearfix">
+<p>Copyright © 2014. All Rights Reserved.</p>
+</footer>
+
+  </div>
+</div>
+
+
+</body></html>

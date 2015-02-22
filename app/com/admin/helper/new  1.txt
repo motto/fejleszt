@@ -1,0 +1,1 @@
+SQL nyelv procedurális bővítése adatbázis alkalmazások fejlesztéséhez: Változók, típusok, nevesített konstansok; Vezérlési szerkezetek (feltételes elágazások, ciklusok); Kivételkezelés (hibakezelés); Kurzorok az SQL utasítások feldolgozásához; Alprogramok; Objektumorientált eszközök.

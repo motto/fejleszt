@@ -1,0 +1,71 @@
+﻿.modal{ 
+cursor:pointer;
+}
+
+
+
+.modal_box	{ 
+position:absolute; 
+/*left:options.left;
+top:options.top;
+display:none;*/
+/* height: options.height + px;
+ width: options.width + px;
+height : 250;
+width : 500;*/
+top: 50px;
+border:1px solid #fff;
+box-shadow: 0px 2px 7px #292929;
+-moz-box-shadow: 0px 2px 7px #292929;
+-webkit-box-shadow: 0px 2px 7px #292929;
+border-radius:10px;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+ background: #f2f2f2; 
+z-index:750;
+padding:10px;
+
+}
+.modal_close {
+position:relative;
+top:-25px;
+left:20px;
+float:right;
+display:block;
+height:50px;
+width:50px;
+background: url(images/close.png) no-repeat;
+z-index:760;
+}
+.block_page {
+position:fixed;
+top:0;
+left:0;
+background-color:rgba(0,0,0,0.6);
+height:100%;
+width:100%;
+z-index:710;
+}
+.szurkit {
+position:absolute;
+top:0;
+left:0;
+background-color:rgba(0,0,0,0.6);
+height:100%;
+width:100%;
+z-index:210;
+}
+.inner_modal_box {
+
+border:1px solid #fff;
+overflow:hidden;
+position:absolute;
+/*left: 25px;
+height : 100%;
+width : 100%;
+top: 20%;
+*/
+border-radius:10px;
+-moz-border-radius:10px;
+-webkit-border-radius:10px
+}
