@@ -6,10 +6,11 @@ Link::kiszed(link,'task,id'); //ha a linkben nincs kérdőjel mögé tesz egy ?g
 Link::src_thumb($src)  //képnév elé illeszti a thumb/ -ot
 */
 //tömbkezelő függvények-------------------------------------------------
-class Tomb {
-function char_to_assoc($string,$tagolo1=',',$tagolo2=':')
+class TOMB {
+static function char_to_assoc($string,$tagolo1=',',$tagolo2=':')
 {
 //pl.:$string='class:hhh,id:azon,name:név'
+$tomb=[];
 $tx1=explode($tagolo1,$string);
 foreach($tx1 as $mezo){
 $tx2=explode($tagolo2,$mezo);
@@ -23,19 +24,47 @@ if(is_array($elem)){self::kiir($elem);}else{echo $elem."\n </br>";}}
 }
 }
 
-//osztályok létrehozását könnítő függvények-------------------------------
-class Obj{
-//pl.:$param='class:hhh,id:azon,name:név' Obj::gyors($osztaly,$param,'megjelenit')
-function gyors($osztaly,$param,$fugveny='',$tagolo1=',',$tagolo2=':') //stringből tölti fel az osztály változókat
+//Ős osztály-------------------------------
+class Os{
 {
-$$osztaly=new $osztaly;
-if(is_array($param)){$param2=$param;}else{
-$param2=Tomb::char_to_assoc($param,$tagolo1,$tagolo2);
-}
-foreach($param as $kulcs => $ertek){$$osztaly->$kulcs=$ertek;}
-//ha van függvény azzal hanincs az objektummal tér vissza
-if($fugveny=''){return $$osztaly;}else{return $$osztaly->$fugveny();}
-}
+    private $pr1;
+    protected $pr2;
+    protected $param;
+
+    function __construct($paramtomb){$this->frissit();}
+
+    function frissit($paramtomb)
+    {
+        foreach ($paramtomb as $key=>$param) {
+            $this->$key=$param;
+
+        }
+
+    }
+
+
+}}
+
+//osztályok létrehozása (object factory)-------------------------------
+class OBJ{
+  protected static  $obj=null;
+    function __construct(){
+     $this->obj= self::gyors($osztaly,$param,$fugveny='',$tagolo1=',',$tagolo2=':');
+     return $this->obj;
+    }
+//pl.:$param='class:hhh,id:azon,name:név' Obj::gyors($osztaly,$param,'megjelenit')
+    static function gyors($osztaly,$param,$fugveny='',$tagolo1=',',$tagolo2=':') //stringből tölti fel az osztály változókat
+    {
+
+    $ujobj=new $osztaly;
+        if(is_array($param)){$param2=$param;}else{
+     $param2=TOMB::char_to_assoc($param,$tagolo1,$tagolo2);
+        }
+        foreach($param2 as $kulcs => $ertek){$ujobj->$kulcs=$ertek;}
+    //ha van függvény azzal hanincs az objektummal tér vissza
+        if($fugveny==''){return $ujobj;}else{return $ujobj->$fugveny();}
+        return $ujobj;
+    }
 
 }
 

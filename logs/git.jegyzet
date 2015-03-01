@@ -10,3 +10,13 @@ VCS->checkout from version kontrol->github
 felbukkanó ablakban: clonozás
 ha könyvtárnévnek megadjuk a fejlesztet akkor az E:/www/fejleszt-be klonoz.
 elkészült könyvtárba nem klónoz
+
+-------------------------------------------------------
+git könyvtár:  https://github.com/motto
+gitbucket:  https://bitbucket.org/motto001 (5 ingyenes privát repository)
+
+könyvtár feltöltés:
+leírás http://kodzaj.blog.hu/2012/08/24/github_for_windows
+
+github for windows letöltése: https://windows.github.com/ telepítése
+fogaskeréknél options

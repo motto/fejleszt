@@ -16,6 +16,7 @@ define('IKONOK', 'media/kepek/');define('KEPEK', 'media/kepek/');
 define('SAJAT_MAPPA','lib/');define('LIB','lib/');
 define('PLUGINOK_PATH','app/pluginok/');
 define('COM_PATH','app/com/');
+define('COM','app/com/');
 define('LANG_DIR','language/');
 define('MODULOK_PATH','app/modulok/');
 define('JOGOK', SAJAT_MAPPA.'jogok.php');
