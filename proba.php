@@ -7,8 +7,7 @@
  */
 class Os
 {
-    protected $tilos = ['pr2', 'pr3'];
-    protected $set = ['pr1'];
+    protected $vedett = ['pr1'];
     protected $pr1, $pr2, $pr3;
     public $param=[];
 
@@ -20,14 +19,35 @@ class Os
     function frissit($paramtomb)
     {
         foreach ($paramtomb as $key => $param) {
-            if (in_array($key, $this->tilos)) {
-            } else {if (in_array($key, $this->set)) {$this->$key._set();
-                        } else { $this->$key = $param;}
-                    }
+
+            if (in_array($key, $this->vedett)) {$fg=$key.'_set'; if (function_exists($this->$fg())) {$this->$fg($param);}
+             } else { $this->$key = $param;}
+
         }
     }
+    function pr1_set($param){
+        $this->pr1=$param;
+    }
 }
+class Os2
+{
+    protected $vedett = ['pr1'];
+    protected $pr1, $pr2, $pr3;
+    public $param=[];
 
+
+
+    function frissit($key)
+    {
+        $fg=$key.'_set';
+        $this->$fg();
+    if (function_exists($this->$fg())) {$this->$fg();}
+    }
+
+    function kiir_set(){
+        echo "van ilxen";
+    }
+}
 class proba
 {
     public $pr1;
@@ -55,9 +75,11 @@ class OBJ{
     }
 
 }
-
+/*
 $paramtomb['pr1']='ggg';
 $paramtomb['pr2']='cccccccccccccc';
 //$dd=Obj::gyors('proba',$paramtomb,'megjelenit');
 $dd=OBj::gyors('proba',$paramtomb,'megjelenit');
-echo $dd->pr1;
+echo $dd->pr1;*/
+$kk=new Os2;
+$kk->frissit('kiir');
