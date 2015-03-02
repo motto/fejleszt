@@ -1,5 +1,35 @@
-<?php 
+<?php
 //defined( '_MOTTO' ) or die( 'Restricted access' );
+class Single_plusz
+{
+    // a példány tárolója
+    private static $instance = null;
+    // privát tag
+    private $adat;
+
+    private function __construct($adat = null)
+    {
+        if (isset($adat)) {
+            $this->adat = $adat;
+        }
+    }
+    // publikus példányosító metódus
+    // ha már van példány visszaadjuk, ha még nincs, akkor elkészítjük
+    public static function getInstance($adat = null)
+    {
+        if (!isset(self::instance)) {
+        self::instance = new Obj($adat);
+    }
+        return self::instance;
+    }
+
+    // hozzáférés a privát adat taghoz
+    public function adatLekero()
+    {
+        return $this->adat;
+    }
+}
+
 /**********************************************************
 a globális $db objektumot létre kell hozni: $db=DB::connect();
  peldak:
@@ -37,24 +67,14 @@ if (get_magic_quotes_gpc()){$input = stripslashes($input);}
  return $input;
 }	
 }	
-class DB
-{
-static public function connect(){
-try {
-				$db = new PDO("mysql:dbname=".MoConfig::$adatbazis.";host=".MoConfig::$host,MoConfig::$felhasznalonev, MoConfig::$jelszo, array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF8\''));
-				//$db->pdo->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING );
-			} catch (PDOException $e) {
-				die(GOB::$hiba['pdo']="Adatbazis kapcsolodasi hiba: ".$e->getMessage());
-				return false;
-			}
-	return $db;		
-}
+class DB{
+    private static $db=null;
+
 static public function parancs($sql){
 $sth =self::alap($sql);
 }
 static public function alap($sql){
-global $db;
-$sth = $db->prepare($sql);
+$sth = self::$db->prepare($sql);
 $sth->execute();
 		//GOB::$hiba][]="assoc_tomb: ".$sth->errorInfo(); nem jó!!!
 		//tömbhöz nem lehet hozzáfűzni	stringet!!!!!!!!!!!!!!!!!
@@ -79,7 +99,7 @@ return $sth->fetch(PDO::FETCH_ASSOC);
 
 static public function beszur($sql){
 $sth =self::alap($sql);
-return $db->lastInsertId();
+return self::$db->lastInsertId();
 }
 
 static public function torol_sor($tabla,$id,$id_nev='id') 

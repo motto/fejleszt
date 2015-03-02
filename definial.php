@@ -1,7 +1,14 @@
 <?php 
 //GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}
 //állandók--------------------------------
-define("DS", "/"); define("PATH_SITE", $_SERVER['DOCUMENT_ROOT']); define("_MOTTO", "igen"); 
+define("DS", "/"); define("_MOTTO", "igen");
+
+
+
+
+
+
+define("PATH_SITE", $_SERVER['DOCUMENT_ROOT']);
 //file elérések----------------------------------------------------
 
 define('MEDIA', 'media/');define('USEREK', 'media/');
@@ -23,17 +30,28 @@ class MoConfig {
 //public static $felhasznalonev = 'pnet354_motto001';
 //public static $jelszo = 'motto6814';
 //public static $adatbazis = 'pnet354_motto001_fejleszt';
-public static $host = 'localhost';
-public static $felhasznalonev = 'root';
-public static $jelszo = '';
-public static $adatbazis = 'fejleszt';
-public static $mailfrom= 'motto001@gmail.com';
-public static $fromnev= 'Admin'; 
-public static $offline = 'nem'; //igen bekapcsolja az offline módot
-public static $offline_message = 'Weblapunk fejlesztés alatt.';
+private $host = 'localhost';
+private $felhasznalonev = 'root';
+private $jelszo = '';
+private $adatbazis = 'fejleszt';
+
+    function __construct(){
+        try {
+            $db = new PDO("mysql:dbname=".$this->adatbazis.";host=".$this->$host,$this->$felhasznalonev, MoConfig::$jelszo, array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF8\''));
+            //$db->pdo->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING );
+        } catch (PDOException $e) {
+            die(GOB::$hiba['pdo']="Adatbazis kapcsolodasi hiba: ".$e->getMessage());
+            return false;
+        }
+        return $db;
+    }
 }
 //globális változók-------------------------------------------------------------
 class GOB {
+    public static $mailfrom= 'motto001@gmail.com';
+    public static $fromnev= 'Admin';
+    public static $offline = 'nem'; //igen bekapcsolja az offline módot
+    public static $offline_message = 'Weblapunk fejlesztés alatt.';
 public static $tmpl='szovetseg3'; //alap template
 public static $com='cikk';		// alap com
 protected static $user=Array();
