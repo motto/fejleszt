@@ -1,7 +1,7 @@
 <?php
 //defined( '_MOTTO' ) or die( 'Restricted access' );
 class Single_plusz
-{
+{//ddddddddddddddddddddddddddd
     // a példány tárolója
     private static $instance = null;
     // privát tag

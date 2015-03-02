@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21309d19-510f-4aa8-a8a8-0f8256f29cde" name="Default" comment="elkészült a git jegyzet">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+    <list default="true" id="21309d19-510f-4aa8-a8a8-0f8256f29cde" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/db_fgv.php" afterPath="$PROJECT_DIR$/lib/db_fgv.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/definial.php" afterPath="$PROJECT_DIR$/definial.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fejleszt.iws" />
@@ -78,14 +74,13 @@
       <file leaf-file-name="db_fgv.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/db_fgv.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29545453" vertical-offset="113" max-vertical-offset="2074">
-              <caret line="75" column="33" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.16558442" vertical-offset="0" max-vertical-offset="2550">
+              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
               <folding>
-                <element signature="n#Single_plusz#0;n#!!top" expanded="false" />
-                <element signature="e#716#1659#0#PHP" expanded="false" />
+                <element signature="e#745#1688#0#PHP" expanded="false" />
                 <element signature="n#TEXT#0;n#!!top" expanded="false" />
-                <marker date="1424901674650" expanded="true" signature="3245:3285" placeholder="DELETE FROM ..." />
-                <marker date="1424901674650" expanded="true" signature="4904:4947" placeholder="INSERT INTO ..." />
+                <marker date="1425330866450" expanded="true" signature="3274:3314" placeholder="DELETE FROM ..." />
+                <marker date="1425330866450" expanded="true" signature="4933:4976" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -309,7 +304,13 @@
       <option name="project" value="LOCAL" />
       <updated>1424637580986</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feltoltés2">
+      <created>1425330669593</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1425330669593</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -336,6 +337,7 @@
     <frame x="21" y="15" width="1346" height="697" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283859" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283859" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909784" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -354,7 +356,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909784" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39898348" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909784" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -378,7 +379,8 @@
     </option>
     <MESSAGE value="ddd" />
     <MESSAGE value="elkészült a git jegyzet" />
-    <option name="LAST_COMMIT_MESSAGE" value="elkészült a git jegyzet" />
+    <MESSAGE value="feltoltés2" />
+    <option name="LAST_COMMIT_MESSAGE" value="feltoltés2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -409,11 +411,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="113" max-vertical-offset="2074">
           <caret line="75" column="33" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
           <folding>
-            <element signature="n#Single_plusz#0;n#!!top" expanded="false" />
-            <element signature="e#716#1659#0#PHP" expanded="false" />
+            <element signature="e#745#1688#0#PHP" expanded="false" />
             <element signature="n#TEXT#0;n#!!top" expanded="false" />
-            <marker date="1424901674650" expanded="true" signature="3245:3285" placeholder="DELETE FROM ..." />
-            <marker date="1424901674650" expanded="true" signature="4904:4947" placeholder="INSERT INTO ..." />
+            <marker date="1425330866450" expanded="true" signature="3274:3314" placeholder="DELETE FROM ..." />
+            <marker date="1425330866450" expanded="true" signature="4933:4976" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -442,11 +443,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2652">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#Single_plusz#0;n#!!top" expanded="false" />
-            <element signature="e#716#1659#0#PHP" expanded="false" />
+            <element signature="e#745#1688#0#PHP" expanded="false" />
             <element signature="n#TEXT#0;n#!!top" expanded="false" />
-            <marker date="1424901674650" expanded="true" signature="3245:3285" placeholder="DELETE FROM ..." />
-            <marker date="1424901674650" expanded="true" signature="4904:4947" placeholder="INSERT INTO ..." />
+            <marker date="1425330866450" expanded="true" signature="3274:3314" placeholder="DELETE FROM ..." />
+            <marker date="1425330866450" expanded="true" signature="4933:4976" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -719,14 +719,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/db_fgv.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29545453" vertical-offset="113" max-vertical-offset="2074">
-          <caret line="75" column="33" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.16558442" vertical-offset="0" max-vertical-offset="2550">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
           <folding>
-            <element signature="n#Single_plusz#0;n#!!top" expanded="false" />
-            <element signature="e#716#1659#0#PHP" expanded="false" />
+            <element signature="e#745#1688#0#PHP" expanded="false" />
             <element signature="n#TEXT#0;n#!!top" expanded="false" />
-            <marker date="1424901674650" expanded="true" signature="3245:3285" placeholder="DELETE FROM ..." />
-            <marker date="1424901674650" expanded="true" signature="4904:4947" placeholder="INSERT INTO ..." />
+            <marker date="1425330866450" expanded="true" signature="3274:3314" placeholder="DELETE FROM ..." />
+            <marker date="1425330866450" expanded="true" signature="4933:4976" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
